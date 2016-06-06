@@ -15,7 +15,7 @@ public class Metodos {
    
     
     /**
-     * Método que comprueba las nueva
+     * Método que comprueba si es positivo
      */
     public void comp(){
         if (dig <= 0) {
@@ -24,7 +24,7 @@ public class Metodos {
     }
      
     /**
-     *  Es un metodo con un blucle que recorre la variable  mientras el valor sea entre 1 y 99999
+     *  Es un metodo con un blucle que recorre la variable i mientras el valor sea entre 1 y 99999
      */
     public void calcprim(){
          for (int i = 1; i <= 99999; i++) {
