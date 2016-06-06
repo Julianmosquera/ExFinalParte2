@@ -14,15 +14,18 @@ public class Metodos {
     
    
     
-    //Comprobador de positivos
+    /**
+     * Método que comprueba las nueva
+     */
     public void comp(){
         if (dig <= 0) {
             System.out.println("Ingrese como parámetro, un numero de digitos correcto (mayor que 0): ");
         }
     }
      
-    //Es un metodo con un blucle que recorre la variable i mientras el valor sea entre 1 y 99999
-    
+    /**
+     *  Es un metodo con un blucle que recorre la variable  mientras el valor sea entre 1 y 99999
+     */
     public void calcprim(){
          for (int i = 1; i <= 99999; i++) {
             int aux = i;
@@ -33,6 +36,9 @@ public class Metodos {
                 aux = aux / 10;
                 contador++;
             }
+           /**
+            * Se iguala la variable ndig al contador 
+            */
             ndig = contador;
 
          
